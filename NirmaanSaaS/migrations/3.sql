@@ -1,0 +1,9 @@
+
+CREATE TABLE project_budget (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  total_budget INTEGER NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO project_budget (total_budget) VALUES (500000);
